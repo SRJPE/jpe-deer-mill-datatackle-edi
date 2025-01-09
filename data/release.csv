@@ -1,0 +1,9 @@
+release_id,release_date,stream,release_site,release_purpose,run_hatchery_fish,hatchery_fish_weight,hatchery_fish_fork_length,total_wild_fish_released,total_hatchery_fish_released,total_wild_fish_dead,total_hatchery_fish_dead
+1,2024-03-11T01:02:00Z,Deer Creek,Deer Creek Release Site,efficiency test,fall,NA,61.4,0,240,0,0
+2,2024-03-25T12:08:00Z,Deer Creek,Deer Creek Release Site,efficiency test,fall,NA,63.4,0,240,0,0
+3,2024-04-08T12:00:00Z,Deer Creek,Deer Creek Release Site,efficiency test,fall,NA,NA,0,240,0,0
+4,2024-05-09T01:30:00Z,Deer Creek,Deer Creek Release Site,efficiency test,fall,NA,NA,0,338,0,0
+5,2024-03-18T11:51:00Z,Mill Creek,Mill Creek Release Site,efficiency test,fall,NA,61.8,0,239,0,1
+6,2024-03-04T11:00:00Z,Mill Creek,Mill Creek Release Site,efficiency test,fall,NA,NA,0,240,0,0
+7,2024-05-06T11:50:00Z,Mill Creek,Mill Creek Release Site,efficiency test,fall,NA,NA,0,240,0,0
+8,2024-04-01T12:10:00Z,Mill Creek,Mill Creek Release Site,efficiency test,fall,NA,72,0,240,0,0

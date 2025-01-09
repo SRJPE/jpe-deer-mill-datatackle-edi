@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.1775.1" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>cvpia</principal>
+      <permission>write</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>Deer and Mill creeks RST current</shortName>
+    <title>Monitoring juvenile Chinook salmon outmigration using rotary screw traps on Deer and Mill creeks 2023 to present</title>
+    <creator>
+      <individualName>
+        <givenName>Ryan</givenName>
+        <surName>Revnak</surName>
+      </individualName>
+      <organizationName>California Department of Fish and Wildlife</organizationName>
+      <electronicMailAddress>ryan.revnak@wildlife.ca.gov</electronicMailAddress>
+    </creator>
+    <pubDate>2024-12-19</pubDate>
+    <abstract>
+      <para>
+    The California Department of Fish and Wildlife (CDFW) conducts
+    juvenile salmonid emigration monitoring on Mill and Deer Creek
+    (Tehama County, CA) annually from October through June using rotary
+    screw traps (RSTs). Data from this monitoring is used to estimate
+    juvenile spring-run Chinook salmon (Oncorhynchus tshawytscha)
+    (spring-run) abundance and passage, identify yearling outmigration
+    timing and alert resource agencies of juvenile spring-run presence
+    in the lower Sacramento-San Joaquin Delta. This data will be
+    included in the development of a juvenile production estimate (JPE)
+    for spring-run Chinook salmon in the Sacramento River as required by
+    Condition of Approval 7.5.2 of Incidental Take Permit No.
+    2081-2019-006-00 (ITP) issued by CDFW to California Department of
+    Water Resources (DWR) for the long-term operation of the State Water
+    Project. Salmonid data collected from the Mill and Deer RSTs, among
+    other datasets, is also used by the Salmon Monitoring Team (SaMT) to
+    understand the movement of juvenile salmon in the Sacramento River
+    Watershed to estimate the number of winter-run and spring-run
+    Chinook salmon that have entered the Sacramento-San Joaquin Delta
+    (Delta). SaMT is a real-time operations monitoring team required by
+    Condition of Approval 8.1.2 of the ITP which meets weekly from
+    October through June, to provide advice for real-time management of
+    SWP operations to DWR, CDFW, and the Water Operation Management Team
+    (WOMT) to minimize take of winter-run and spring-run Chinook salmon
+    in the Delta.
+  </para>
+      <para>
+    This data package is complimentary to edi.1504 and represents
+    current RST monitoring on Deer and Mill creeks. Data within the
+    current year’s monitoring season are considered provisional.
+  </para>
+    </abstract>
+    <keywordSet>
+      <keyword>spring run</keyword>
+      <keyword>fall run</keyword>
+      <keyword>trap</keyword>
+      <keyword>catch</keyword>
+      <keyword>juvenile production estimate</keyword>
+      <keyword>Oncorhynchus tshawytscha</keyword>
+      <keyword>RST</keyword>
+      <keyword>California</keyword>
+      <keyword>Central Valley</keyword>
+      <keyword>SRJPE</keyword>
+      <keyword>Chinook salmon</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0.html</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Deer and Mill creeks RST</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.1176</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.9607</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0547</northBoundingCoordinate>
+          <southBoundingCoordinate>39.9214</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1992-10-14</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2023-06-22</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Teleostei</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Salmoniformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Salmonidae</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Oncorhynchus</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Oncorhynchus tshawytscha</taxonRankValue>
+                      <commonName>Chinook Salmon</commonName>
+                      <taxonId provider="https://itis.gov">161980</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+      <maintenanceUpdateFrequency>monthly</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Ryan</givenName>
+        <surName>Revnak</surName>
+      </individualName>
+      <organizationName>California Department of Fish and Wildlife</organizationName>
+      <electronicMailAddress>ryan.revnak@wildlife.ca.gov</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Trap equipment</title>
+            <para>
+      A single 5-foot diameter rotary screw trap RST operated on each
+      creek.
+    </para>
+          </section>
+          <section>
+            <title>Current trap location</title>
+            <para>
+      Mill Creek: Upper Dam on Mill Creek, located approximately 6
+      river-miles from the confluence with the Sacramento River near the
+      town of Los Molinos, California.
+    </para>
+            <para>
+      Deer Creek: Deer Creek RST is located approximately 9.5
+      river-miles from the confluence of the Sacramento River near the
+      town of Vina, California.
+    </para>
+          </section>
+          <section>
+            <title>Monitoring schedule</title>
+            <para>
+      October through June.
+    </para>
+            <para>
+      Continuously trapping except under high flows and unsafe working
+      conditions.
+    </para>
+            <para>
+      Serviced daily within a 24-hour period, more if needed due to high
+      debris amounts or fish catch.
+    </para>
+          </section>
+          <section>
+            <title>Daily environmental data</title>
+            <para>
+      Water temperature (Celsius)
+    </para>
+            <para>
+      Flow (cubic feet per second)
+    </para>
+          </section>
+          <section>
+            <title>Fish measurements</title>
+            <para>
+      Fork length measurements to the nearest mm are taken for: Chinook
+      salmon: 10 randomly selected; Non-salmonid fish: first 10 (fork
+      length measurement).
+    </para>
+          </section>
+          <section>
+            <title>Fish counts</title>
+            <para>
+      All fish not measured are plus counted by hand.
+    </para>
+          </section>
+          <section>
+            <title>Trap efficiency trials</title>
+            <para>
+      Hatchery-origin juvenile fall-run Chinook salmon from Coleman
+      National Fish Hatchery are used for efficiency trials.
+    </para>
+            <para>
+      Trials are conducted bi-weekly from February to May across
+      variable flow and environmental conditions as catch totals allow.
+    </para>
+            <para>
+      A minimum of seven consecutive days of fishing after the release
+      date is required for a release to be included in analyses.
+    </para>
+            <para>
+      Mortality between the release point and the trap is assumed to be
+      negligible.
+    </para>
+            <para>
+      Release site located approximately 1 mile upstream of the trapping
+      site.
+    </para>
+          </section>
+          <section>
+            <title>Trap efficiency mark</title>
+            <para>
+      Fish are marked with Bismarck Brown Y (BBY) whole body stain.
+    </para>
+          </section>
+          <para>
+    Beginning in 2023, data collection was transitioned to the
+    DataTackle data collection application. The transition resulted in
+    differences in data format from historical paper fieldsheet based
+    data collection. All data collected previous to DataTackle are
+    included in this EDI data package: Revnak, R. 2024. Monitoring
+    juvenile Chinook salmon outmigration using rotary screw traps on
+    Deer and Mill creeks ver 3. Environmental Data Initiative.
+    https://doi.org/10.6073/pasta/352f39bd3c2836c3d88035743675487b.
+  </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Monitoring juvenile Chinook salmon outmigration using rotary screw traps on Deer and Mill creeks 2023 to present</title>
+      <personnel>
+        <individualName>
+          <givenName>Ryan</givenName>
+          <surName>Revnak</surName>
+        </individualName>
+        <organizationName>California Department of Fish and Wildlife</organizationName>
+        <electronicMailAddress>ryan.revnak@wildlife.ca.gov</electronicMailAddress>
+        <role>Project Lead</role>
+      </personnel>
+    </project>
+    <dataTable>
+      <entityName>catch.csv</entityName>
+      <entityDescription>Catch data from Deer and Mill creeks</entityDescription>
+      <physical>
+        <objectName>catch.csv</objectName>
+        <size unit="bytes">567627</size>
+        <authentication method="MD5">f9a32fa2052f88cefdb2c481a32e41b1</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>catch_raw_id</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Primary key for the catch table used to identify unique entries.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Primary key for the catch table used to identify unique entries.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_visit_id</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Foreign key to the trap_visit table. This allows us to join catch data with trap visit data.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Foreign key to the trap_visit table. This allows us to join catch data with trap visit data.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>release_id</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Unique identifier for efficiency release trials used to associate catch with a release trial. If release_id is NA catch is not a marked fish from an efficiency trial. All release_id in this table will be NA but is included as a field to communicate that no recaptured fish are included.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for efficiency release trials used to associate catch with a release trial. If release_id is NA catch is not a marked fish from an efficiency trial. All release_id in this table will be NA but is included as a field to communicate that no recaptured fish are included.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_visit_time_end</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Date and time when the trap was stopped and catch was processed. The trap_visit_time_start can be found in the trap table.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>YYYY-MM-DD</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">45219</minimum>
+                  <maximum exclusive="false">45421</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>stream</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Name of the stream where traps are operated. Levels = c("Deer Creek", "Mill Creek")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the stream where traps are operated. Levels = c("Deer Creek", "Mill Creek")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Name of the site within the stream where traps are operated. Levels = c("Deer Creek RST", "Mill Creek RST")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the site within the stream where traps are operated. Levels = c("Deer Creek RST", "Mill Creek RST")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_name</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Name of the trap where fish were caught. Levels = c("Deer Creek RST", "Mill Creek RST")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the trap where fish were caught. Levels = c("Deer Creek RST", "Mill Creek RST")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species_common_name</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Common name of the species caught. Levels = c("Chinook salmon", "Hardhead", "Unknown lamprey (Entosphenus or Lampetra)", &#13;
+"Steelhead / rainbow trout", "Prickly sculpin", "River lamprey", &#13;
+"Sacramento pikeminnow", "Riffle sculpin", "Speckled dace", "California roach", &#13;
+"American shad", "Black bullhead", "Unknown minnow", "Pacific lamprey", &#13;
+"Unknown bass (Micropterus)", "Delta smelt", "Sacramento sucker", &#13;
+"Unknown sculpin (Cottus)", NA, "Western brook lamprey", "Smallmouth bass"&#13;
+)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Common name of the species caught. Levels = c("Chinook salmon", "Hardhead", "Unknown lamprey (Entosphenus or Lampetra)", &#13;
+"Steelhead / rainbow trout", "Prickly sculpin", "River lamprey", &#13;
+"Sacramento pikeminnow", "Riffle sculpin", "Speckled dace", "California roach", &#13;
+"American shad", "Black bullhead", "Unknown minnow", "Pacific lamprey", &#13;
+"Unknown bass (Micropterus)", "Delta smelt", "Sacramento sucker", &#13;
+"Unknown sculpin (Cottus)", NA, "Western brook lamprey", "Smallmouth bass"&#13;
+)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>capture_run</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Run designation as determined in the field or as assigned at a later date. Levels = c("spring", "fall", "winter", "late fall", "hybrid", "not recorded"&#13;
+)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Run designation as determined in the field or as assigned at a later date. Levels = c("spring", "fall", "winter", "late fall", "hybrid", "not recorded"&#13;
+)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>capture_run_method</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Method used to determine run classification. Levels = c("river model length at date", "delta model length at date", &#13;
+"probabilistic length at date (PLAD)", "genetic analysis", "not recorded", &#13;
+"expert judgement")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Method used to determine run classification. Levels = c("river model length at date", "delta model length at date", &#13;
+"probabilistic length at date (PLAD)", "genetic analysis", "not recorded", &#13;
+"expert judgement")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>adipose_clipped</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Logical variable for whether fin was clipped.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logical variable for whether fin was clipped.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dead</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Logical variable for whether fish was dead or not.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logical variable for whether fish was dead or not.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>life_stage</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Life stage of fish based on observation. Levels = c(NA, "parr", "silvery parr", "fry", "smolt", "yolk sac fry")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Life stage of fish based on observation. Levels = c(NA, "parr", "silvery parr", "fry", "smolt", "yolk sac fry")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fork_length</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Fork length of fish in millimeters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3</minimum>
+                  <maximum exclusive="false">508</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>weight</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Weight of fish in grams.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.67</minimum>
+                  <maximum exclusive="false">979</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>num_fish_caught</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Number of fish caught in trap</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fish</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">49</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>plus_count</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Logical variable for whether fish is a plus count or not.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logical variable for whether fish is a plus count or not.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>plus_count_methodology</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Method used to count the plus count fish. Levels = c("none", "volumetric", "split method", "not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Method used to count the plus count fish. Levels = c("none", "volumetric", "split method", "not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>is_random</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Logical variable for whether measured fish were identified randomly. This only applies when there is a plus count of fish.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logical variable for whether measured fish were identified randomly. This only applies when there is a plus count of fish.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mark_type</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Type of mark on fish. Levels = c("none", "elastomer", "fin clip", "pigment/dye", "coded wire tag (cwt)", &#13;
+"freeze brand (bar)", "freeze brand (dot)", "pit tag", "acoustic telemetry tag", &#13;
+"radio telemetry tag", "floy tag", "photonic dye", "bismark brown", &#13;
+"not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Type of mark on fish. Levels = c("none", "elastomer", "fin clip", "pigment/dye", "coded wire tag (cwt)", &#13;
+"freeze brand (bar)", "freeze brand (dot)", "pit tag", "acoustic telemetry tag", &#13;
+"radio telemetry tag", "floy tag", "photonic dye", "bismark brown", &#13;
+"not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mark_color</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Color of mark on fish. Levels = c("black", "blue", "brown", "cobalt blue", "dark blue", "flourescent blue", &#13;
+"flourescent green", "flourescent red", "green", "magenta", "orange", &#13;
+"pink", "purple", "red", "white", "yellow", "not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Color of mark on fish. Levels = c("black", "blue", "brown", "cobalt blue", "dark blue", "flourescent blue", &#13;
+"flourescent green", "flourescent red", "green", "magenta", "orange", &#13;
+"pink", "purple", "red", "white", "yellow", "not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mark_position</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Describes where mark exists on body. Levels = c("adipose fin", "anal fin", "caudal fin", "dorsal fin", "head", &#13;
+"internal/coelom", "left side", "left side, back", "left side, front", &#13;
+"nose", "pectoral fin", "pelvic fin", "right side", "right side, back", &#13;
+"right side, front", "whole body", "not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Describes where mark exists on body. Levels = c("adipose fin", "anal fin", "caudal fin", "dorsal fin", "head", &#13;
+"internal/coelom", "left side", "left side, back", "left side, front", &#13;
+"nose", "pectoral fin", "pelvic fin", "right side", "right side, back", &#13;
+"right side, front", "whole body", "not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>4149</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>recapture.csv</entityName>
+      <entityDescription>Recapture data from Deer and Mill creeks</entityDescription>
+      <physical>
+        <objectName>recapture.csv</objectName>
+        <size unit="bytes">13215</size>
+        <authentication method="MD5">ddb54360d8488af24cf8e19be356e1f8</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>catch_raw_id</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Primary key for the catch table used to identify unique entries.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Primary key for the catch table used to identify unique entries.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_visit_id</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Foreign key to the trap_visit table. This allows us to join catch data with trap visit metadata.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Foreign key to the trap_visit table. This allows us to join catch data with trap visit metadata.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>release_id</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Unique identifier for efficiency release trials used to associate catch with a release trial. If release_id is NA catch is not a marked fish from an efficiency trial. All release_id in this table should not be NA because they are all recaptures.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for efficiency release trials used to associate catch with a release trial. If release_id is NA catch is not a marked fish from an efficiency trial. All release_id in this table should not be NA because they are all recaptures.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_visit_time_end</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Date and time when the trap was stopped and catch was processed. The trap_visit_time_start can be found in the trap table.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>YYYY-MM-DD</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">45219</minimum>
+                  <maximum exclusive="false">45421</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>stream</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Name of the stream where traps are operated. Levels = c("Deer Creek", "Mill Creek")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the stream where traps are operated. Levels = c("Deer Creek", "Mill Creek")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Name of the site within the stream where traps are operated. Levels = c("Deer Creek RST", "Mill Creek RST")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the site within the stream where traps are operated. Levels = c("Deer Creek RST", "Mill Creek RST")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_name</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Name of the trap where fish were caught. Levels = c("Deer Creek RST", "Mill Creek RST")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the trap where fish were caught. Levels = c("Deer Creek RST", "Mill Creek RST")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species_common_name</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Common name of the species caught. Levels = c("Chinook salmon", "Hardhead", "Unknown lamprey (Entosphenus or Lampetra)", &#13;
+"Steelhead / rainbow trout", "Prickly sculpin", "River lamprey", &#13;
+"Sacramento pikeminnow", "Riffle sculpin", "Speckled dace", "California roach", &#13;
+"American shad", "Black bullhead", "Unknown minnow", "Pacific lamprey", &#13;
+"Unknown bass (Micropterus)", "Delta smelt", "Sacramento sucker", &#13;
+"Unknown sculpin (Cottus)", NA, "Western brook lamprey", "Smallmouth bass"&#13;
+)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Common name of the species caught. Levels = c("Chinook salmon", "Hardhead", "Unknown lamprey (Entosphenus or Lampetra)", &#13;
+"Steelhead / rainbow trout", "Prickly sculpin", "River lamprey", &#13;
+"Sacramento pikeminnow", "Riffle sculpin", "Speckled dace", "California roach", &#13;
+"American shad", "Black bullhead", "Unknown minnow", "Pacific lamprey", &#13;
+"Unknown bass (Micropterus)", "Delta smelt", "Sacramento sucker", &#13;
+"Unknown sculpin (Cottus)", NA, "Western brook lamprey", "Smallmouth bass"&#13;
+)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>capture_run</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Run designation as determined in the field or as assigned at a later date. Levels = c("spring", "fall", "winter", "late fall", "hybrid", "not recorded"&#13;
+)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Run designation as determined in the field or as assigned at a later date. Levels = c("spring", "fall", "winter", "late fall", "hybrid", "not recorded"&#13;
+)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>capture_run_method</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Method used to determine run classification. Levels = c("river model length at date", "delta model length at date", &#13;
+"probabilistic length at date (PLAD)", "genetic analysis", "not recorded", &#13;
+"expert judgement")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Method used to determine run classification. Levels = c("river model length at date", "delta model length at date", &#13;
+"probabilistic length at date (PLAD)", "genetic analysis", "not recorded", &#13;
+"expert judgement")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>adipose_clipped</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Logical variable for whether fin was clipped.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logical variable for whether fin was clipped.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dead</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Logical variable for whether fish was dead or not.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logical variable for whether fish was dead or not.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>life_stage</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Life stage of fish based on observation. Levels = c(NA, "parr", "silvery parr", "fry", "smolt", "yolk sac fry")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Life stage of fish based on observation. Levels = c(NA, "parr", "silvery parr", "fry", "smolt", "yolk sac fry")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fork_length</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Fork length of fish in millimeters.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3</minimum>
+                  <maximum exclusive="false">508</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>weight</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Weight of fish in grams.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.67</minimum>
+                  <maximum exclusive="false">979</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>num_fish_caught</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Number of fish caught in trap</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fish</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">49</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>plus_count</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Logical variable for whether fish is a plus count or not.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logical variable for whether fish is a plus count or not.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>plus_count_methodology</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Method used to count the plus count fish. Levels = c("none", "volumetric", "split method", "not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Method used to count the plus count fish. Levels = c("none", "volumetric", "split method", "not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>is_random</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Logical variable for whether measured fish were identified randomly. This only applies when there is a plus count of fish.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logical variable for whether measured fish were identified randomly. This only applies when there is a plus count of fish.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mark_type</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Type of mark on fish. Levels = c("none", "elastomer", "fin clip", "pigment/dye", "coded wire tag (cwt)", &#13;
+"freeze brand (bar)", "freeze brand (dot)", "pit tag", "acoustic telemetry tag", &#13;
+"radio telemetry tag", "floy tag", "photonic dye", "bismark brown", &#13;
+"not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Type of mark on fish. Levels = c("none", "elastomer", "fin clip", "pigment/dye", "coded wire tag (cwt)", &#13;
+"freeze brand (bar)", "freeze brand (dot)", "pit tag", "acoustic telemetry tag", &#13;
+"radio telemetry tag", "floy tag", "photonic dye", "bismark brown", &#13;
+"not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mark_color</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Color of mark on fish. Levels = c("black", "blue", "brown", "cobalt blue", "dark blue", "flourescent blue", &#13;
+"flourescent green", "flourescent red", "green", "magenta", "orange", &#13;
+"pink", "purple", "red", "white", "yellow", "not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Color of mark on fish. Levels = c("black", "blue", "brown", "cobalt blue", "dark blue", "flourescent blue", &#13;
+"flourescent green", "flourescent red", "green", "magenta", "orange", &#13;
+"pink", "purple", "red", "white", "yellow", "not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mark_position</attributeName>
+          <attributeLabel>catch_raw</attributeLabel>
+          <attributeDefinition>Describes where mark exists on body. Levels = c("adipose fin", "anal fin", "caudal fin", "dorsal fin", "head", &#13;
+"internal/coelom", "left side", "left side, back", "left side, front", &#13;
+"nose", "pectoral fin", "pelvic fin", "right side", "right side, back", &#13;
+"right side, front", "whole body", "not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Describes where mark exists on body. Levels = c("adipose fin", "anal fin", "caudal fin", "dorsal fin", "head", &#13;
+"internal/coelom", "left side", "left side, back", "left side, front", &#13;
+"nose", "pectoral fin", "pelvic fin", "right side", "right side, back", &#13;
+"right side, front", "whole body", "not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>82</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>release.csv</entityName>
+      <entityDescription>Release data from Deer and Mill creeks</entityDescription>
+      <physical>
+        <objectName>release.csv</objectName>
+        <size unit="bytes">991</size>
+        <authentication method="MD5">84eae50705aca358b6db41cd9032245f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>release_id</attributeName>
+          <attributeLabel>release</attributeLabel>
+          <attributeDefinition>Unique id associated with a release trial for a given stream and site. This is the primary key to the release table.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique id associated with a release trial for a given stream and site. This is the primary key to the release table.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>release_date</attributeName>
+          <attributeLabel>release</attributeLabel>
+          <attributeDefinition>Date when fish were released for the release trial</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY/MM/DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">45355</minimum>
+                  <maximum exclusive="false">45421</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>stream</attributeName>
+          <attributeLabel>release</attributeLabel>
+          <attributeDefinition>Name of the stream where traps are operated. Levels = c("Deer Creek", "Mill Creek")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the stream where traps are operated. Levels = c("Deer Creek", "Mill Creek")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>release_site</attributeName>
+          <attributeLabel>release</attributeLabel>
+          <attributeDefinition>Site where fish were released. Levels = c("Deer Creek Release Site",  "Mill Creek Release Site")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site where fish were released. Levels = c("Deer Creek Release Site",  "Mill Creek Release Site")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>release_purpose</attributeName>
+          <attributeLabel>release</attributeLabel>
+          <attributeDefinition>Purpose of release trial. Levels =  c("efficiency test", "livebox retention test", " hatchery release", " in-river survival test", " not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Purpose of release trial. Levels =  c("efficiency test", "livebox retention test", " hatchery release", " in-river survival test", " not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>run_hatchery_fish</attributeName>
+          <attributeLabel>release</attributeLabel>
+          <attributeDefinition>Run of hatchery fish. Levels = c("spring", "fall", "winter", "late fall", "hybrid", "not recorded"&#13;
+)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Run of hatchery fish. Levels = c("spring", "fall", "winter", "late fall", "hybrid", "not recorded"&#13;
+)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hatchery_fish_weight</attributeName>
+          <attributeLabel>release</attributeLabel>
+          <attributeDefinition>Weight of hatchery fish released in grams.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Weight of hatchery fish released in grams.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hatchery_fish_fork_length</attributeName>
+          <attributeLabel>release</attributeLabel>
+          <attributeDefinition>Fork length of hatchery fish released</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">61.4</minimum>
+                  <maximum exclusive="false">72</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>total_wild_fish_released</attributeName>
+          <attributeLabel>release</attributeLabel>
+          <attributeDefinition>Number of wild fish released</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fish</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>total_hatchery_fish_released</attributeName>
+          <attributeLabel>release</attributeLabel>
+          <attributeDefinition>Number of hattchery fish released</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fish</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">239</minimum>
+                  <maximum exclusive="false">338</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>total_wild_fish_dead</attributeName>
+          <attributeLabel>release</attributeLabel>
+          <attributeDefinition>Number of wild fish that died between marking and releasing. When added to released fish results in total fish marked.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fish</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>total_hatchery_fish_dead</attributeName>
+          <attributeLabel>release</attributeLabel>
+          <attributeDefinition>Number of hatchery fish that died between marking and releasing. When added to released fish results in total fish marked.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>fish</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>8</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>trap.csv</entityName>
+      <entityDescription>Trap visit data from Deer and Mill creeks</entityDescription>
+      <physical>
+        <objectName>trap.csv</objectName>
+        <size unit="bytes">59879</size>
+        <authentication method="MD5">ea60c26e06f40ba1d2fc5dd0362cdbd4</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>trap_visit_id</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Primary key for the trap_visit table used to identify unique entries. This field can be used to join with the catch table.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Primary key for the trap_visit table used to identify unique entries. This field can be used to join with the catch table.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>stream</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Name of the stream where traps are operated. Levels = c("Deer Creek", "Mill Creek")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the stream where traps are operated. Levels = c("Deer Creek", "Mill Creek")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Name of the site within the stream where traps are operated. Levels = c("Deer Creek RST", "Mill Creek RST")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the site within the stream where traps are operated. Levels = c("Deer Creek RST", "Mill Creek RST")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_name</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Name of the trap where fish were caught. Levels = c("Deer Creek RST", "Mill Creek RST")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the trap where fish were caught. Levels = c("Deer Creek RST", "Mill Creek RST")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>is_paper_entry</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Logical variable for whether data entry was from fieldsheet.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logical variable for whether data entry was from fieldsheet.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_visit_time_start</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Date and time when trap visit started. This is typically the trap_visit_time_restart from the previous visit. When the trap is stopped there should be a trap visit on a later date for when the trap was restarted. Those trap visits would not process fish and would not include a trap_visit_time_start or end. When data are entered from fieldsheets there may some issues with the trap_visit_time_start.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>YYYY-MM-DD hh:mm:ss</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">45218</minimum>
+                  <maximum exclusive="false">45420.4653</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_visit_time_end</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Date and time when the trap was stopped and catch was processed. The trap_visit_time_start can be found in the trap table.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>YYYY-MM-DD hh:mm:ss</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">45219</minimum>
+                  <maximum exclusive="false">45421.4167</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_visit_time_restart</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Data and time when the trap is restarted after processing fish or when the trap is stopped and pulled from the water and then restarted at a later date.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>YYYY-MM-DD hh:mm:ss</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">45219.4104</minimum>
+                  <maximum exclusive="false">45421.4167</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fish_processed</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Describes if fish were processed during trap visit. Levels = c("processed fish", "n/a; not a sampling visit", "no fish were caught", "no catch data; fish released", NA, "not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Describes if fish were processed during trap visit. Levels = c("processed fish", "n/a; not a sampling visit", "no fish were caught", "no catch data; fish released", NA, "not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>why_fish_not_processed</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Describes the reason why fish were not processed during trap visit. Levels = c("staffing shortages", "safety precautions", "not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Describes the reason why fish were not processed during trap visit. Levels = c("staffing shortages", "safety precautions", "not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sample_gear</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Describes the sample gear used at the trapping location. Levels = c("12 foot rst", "5 foot rst", "8 foot rst", "analog hand-held thermometer", &#13;
+"analog thermograph", "barometer", "data logger with probe", &#13;
+"data logger without probe", "electronic depth finder", "electronic meter", &#13;
+"electronic pressure transducer", "float or drouge", "fyke net", &#13;
+"inclined plane trap", "mechanical meter", "pole or measuring stick", &#13;
+"rain gauge", "scoop trap", "secchi disk", "sonar", "not recorded"&#13;
+)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Describes the sample gear used at the trapping location. Levels = c("12 foot rst", "5 foot rst", "8 foot rst", "analog hand-held thermometer", &#13;
+"analog thermograph", "barometer", "data logger with probe", &#13;
+"data logger without probe", "electronic depth finder", "electronic meter", &#13;
+"electronic pressure transducer", "float or drouge", "fyke net", &#13;
+"inclined plane trap", "mechanical meter", "pole or measuring stick", &#13;
+"rain gauge", "scoop trap", "secchi disk", "sonar", "not recorded"&#13;
+)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>cone_depth</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Depth of trap cone in meters. This field is currently not used though is expected to be used in the future</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Depth of trap cone in meters. This field is currently not used though is expected to be used in the future</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_functioning</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Describes how well the trap is functioning when visit to trap began. Levels = c("trap functioning normally", "trap functioning, but not normally", "trap not in service", "trap stopped functioning", "not recorded", NA)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Describes how well the trap is functioning when visit to trap began. Levels = c("trap functioning normally", "trap functioning, but not normally", "trap not in service", "trap stopped functioning", "not recorded", NA)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>why_trap_not_functioning</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Describes why the trap was not functioning. Levels = c("debris in trap", "not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Describes why the trap was not functioning. Levels = c("debris in trap", "not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_status_at_end</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Status of trap at the end of visit. Levels = c("restart trap", "end trapping", "not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Status of trap at the end of visit. Levels = c("restart trap", "end trapping", "not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>total_revolutions</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Total number of revolutions during the time the trap was fishing</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Total number of revolutions during the time the trap was fishing</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>rpm_at_start</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Number of revolutions per minute before cleaning the trap</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>revolutions per minute</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">65</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>rpm_at_end</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Number of revolutions per minute before cleaning the trap</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>revolutions per minute</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">12</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>in_half_cone_configuration</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Logical variable for whether the trap is operating in half cone configuration.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Logical variable for whether the trap is operating in half cone configuration.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>debris_volume_gal</attributeName>
+          <attributeLabel>trap_visit</attributeLabel>
+          <attributeDefinition>Volume of debris collected in trap in gallons.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gallon</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">30</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>295</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>environmental.csv</entityName>
+      <entityDescription>Environmental data from Deer and Mill creeks</entityDescription>
+      <physical>
+        <objectName>environmental.csv</objectName>
+        <size unit="bytes">65813</size>
+        <authentication method="MD5">afaaa06fdb6114e1277300ac5b5bed5f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>trap_visit_environmental_id</attributeName>
+          <attributeLabel>trap_visit_environmental</attributeLabel>
+          <attributeDefinition>Primary key for the trap_visit_environmental table used to identify unique entries.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Primary key for the trap_visit_environmental table used to identify unique entries.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>stream</attributeName>
+          <attributeLabel>trap_visit_environmental</attributeLabel>
+          <attributeDefinition>Name of the stream where traps are operated. Levels = c("Deer Creek", "Mill Creek")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the stream where traps are operated. Levels = c("Deer Creek", "Mill Creek")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>trap_visit_environmental</attributeLabel>
+          <attributeDefinition>Name of the site within the stream where traps are operated. Levels = c("Deer Creek RST", "Mill Creek RST")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the site within the stream where traps are operated. Levels = c("Deer Creek RST", "Mill Creek RST")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_name</attributeName>
+          <attributeLabel>trap_visit_environmental</attributeLabel>
+          <attributeDefinition>Name of the trap where fish were caught. Levels = c("Deer Creek RST", "Mill Creek RST")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the trap where fish were caught. Levels = c("Deer Creek RST", "Mill Creek RST")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_visit_time_end</attributeName>
+          <attributeLabel>trap_visit_environmental</attributeLabel>
+          <attributeDefinition>Date and time when the trap was stopped and catch was processed. The trap_visit_time_start can be found in the trap table.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>YYYY-MM-DD</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">45219</minimum>
+                  <maximum exclusive="false">45421</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>measure_name</attributeName>
+          <attributeLabel>trap_visit_environmental</attributeLabel>
+          <attributeDefinition>Type of environmental measurment recorded. Levels = c("water temperature", "flow measure")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Type of environmental measurment recorded. Levels = c("water temperature", "flow measure")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>measure_value_numeric</attributeName>
+          <attributeLabel>trap_visit_environmental</attributeLabel>
+          <attributeDefinition>Numeric value of environmental measurment recorded</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>described in measure_unit field</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">814</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>measure_unit</attributeName>
+          <attributeLabel>trap_visit_environmental</attributeLabel>
+          <attributeDefinition>Unit of environmental measurment recorded. Levels = c("fahrenheit (f)", "celsius (c)", "centimeter (cm)", "centimeters/second (cm/sec)", &#13;
+"cubic feet/second (cfs)", "cubic meters/second (m3/sec)", "feet/second (ft/sec)", &#13;
+"fish", "foot (ft)", "gram (g)", "inch (in)", "inches of mercury", &#13;
+"Jackson turbidity units (JTU)", "kilogram (kg)", "kilometer (km)", &#13;
+"meter (m)", "meters/second (m/sec)", "milligram/liter (mg/l)", &#13;
+"microSiemens / centimeter (µS/cm)", "mile (mi)", "millimeter (mm)", &#13;
+"milliSiemens/cm (mS/cm = mmho/cm)", "minute (min)", "mm of mercury", &#13;
+"nephelometric turbidity units (NTU)", "ounce (oz)", "parts per million (ppm)", &#13;
+"parts per thousand (ppt)", "percent (%)", "percent saturation", &#13;
+"pound (lb)", "second (s)", "siemens/centimeter (S/cm)", "square feet (ft2)", &#13;
+"square meters (m2)", "not recorded")</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unit of environmental measurment recorded. Levels = c("fahrenheit (f)", "celsius (c)", "centimeter (cm)", "centimeters/second (cm/sec)", &#13;
+"cubic feet/second (cfs)", "cubic meters/second (m3/sec)", "feet/second (ft/sec)", &#13;
+"fish", "foot (ft)", "gram (g)", "inch (in)", "inches of mercury", &#13;
+"Jackson turbidity units (JTU)", "kilogram (kg)", "kilometer (km)", &#13;
+"meter (m)", "meters/second (m/sec)", "milligram/liter (mg/l)", &#13;
+"microSiemens / centimeter (µS/cm)", "mile (mi)", "millimeter (mm)", &#13;
+"milliSiemens/cm (mS/cm = mmho/cm)", "minute (min)", "mm of mercury", &#13;
+"nephelometric turbidity units (NTU)", "ounce (oz)", "parts per million (ppm)", &#13;
+"parts per thousand (ppt)", "percent (%)", "percent saturation", &#13;
+"pound (lb)", "second (s)", "siemens/centimeter (S/cm)", "square feet (ft2)", &#13;
+"square meters (m2)", "not recorded")</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>628</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="fish" name="fish" unitType="dimensionless">
+          <description>number of fish counted</description>
+        </unit>
+        <unit id="revolutions per minute" name="revolutions per minute" unitType="dimensionless">
+          <description>number of revolutions trap makes in one minute</description>
+        </unit>
+        <unit id="described in measure_unit field" name="described in measure_unit field" unitType="dimensionless">
+          <description>units are described in the measure_unit field</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
