@@ -21,7 +21,7 @@
       <organizationName>California Department of Fish and Wildlife</organizationName>
       <electronicMailAddress>ryan.revnak@wildlife.ca.gov</electronicMailAddress>
     </creator>
-    <pubDate>2024-12-19</pubDate>
+    <pubDate>2025-01-09</pubDate>
     <abstract>
       <para>
     The California Department of Fish and Wildlife (CDFW) conducts
@@ -274,7 +274,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/SRJPE/jpe-deer-mill-datatackle-edi/main/data/catch.csv</url>
           </online>
         </distribution>
       </physical>
@@ -661,7 +661,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/SRJPE/jpe-deer-mill-datatackle-edi/main/data/recapture.csv</url>
           </online>
         </distribution>
       </physical>
@@ -1048,7 +1048,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/SRJPE/jpe-deer-mill-datatackle-edi/main/data/release.csv</url>
           </online>
         </distribution>
       </physical>
@@ -1272,7 +1272,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/SRJPE/jpe-deer-mill-datatackle-edi/main/data/trap.csv</url>
           </online>
         </distribution>
       </physical>
@@ -1615,7 +1615,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/SRJPE/jpe-deer-mill-datatackle-edi/main/data/environmental.csv</url>
           </online>
         </distribution>
       </physical>
